@@ -1,0 +1,171 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin:0;
+    width:100vw;
+    height:100%;
+    min-width:440px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height:8.8rem;
+    background: #5FC0CD;
+    z-index: 2;
+}
+h1{
+    margin:0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 3.2rem;
+    line-height: 8.8rem;
+    color: #FFFFFF;
+}
+.header img{
+    position: absolute;
+    top: 50%;
+    height:3.7rem;
+    margin-top: -1.85rem;
+    margin-left: 3.5rem;
+}
+.main{
+    overflow-y: auto;
+    position: relative;
+    top: 8.8rem;
+    height: calc(100vh - 8.8rem - 12.8rem);
+}
+.main-top{
+    line-height: 32.7rem;
+    background: url(images/task5_2.png) no-repeat center;
+    background-size: cover;
+}
+.face{
+    margin-left: 3rem;
+    vertical-align: middle;
+}
+.msg{
+    display: inline-block;
+    margin-left: 4rem;
+    vertical-align: middle;
+    line-height: 4.5rem;
+    font-size: 3.6rem;
+    color: #FFFFFF;
+}
+.age{
+    font-size: 2.8rem;
+}
+.addr{
+    font-size: 2.4rem;
+    vertical-align: bottom;
+}
+.box1{
+    height: 10rem;
+    border-bottom: 0.1rem solid #EFF0F4;
+}
+h2{
+    display: inline;
+    padding-left: 2.7rem;
+    border-left: 0.4rem solid #5FC0CD;
+    margin: 0 0 0 3rem;
+    line-height: 10rem;
+    font-size: 3.2rem;
+}
+.box2{
+    height: 10rem;
+    border-bottom: 0.2rem solid #EFF0F4;
+    margin-left: 3.3rem;
+    font-size: 3.2rem;
+}
+.msg1{
+    display: inline;
+    line-height: 10rem;
+    padding: 0 2rem 0 2.8rem;
+    border-right: 0.2rem solid #EFF0F4;
+}
+.msg2{
+    display: inline;
+    line-height: 10rem;
+    padding-left: 1rem;
+}
+p img{
+    margin-right: 1rem;
+}
+.box3{
+    margin-left: 3.3rem;
+    height: 10rem;
+    border-bottom: 0.2rem solid #EFF0F4;
+    font-size: 3.2rem;
+}
+.box3 p{
+    display: inline;
+    padding: 0 2.8rem;
+    line-height: 10rem;
+}
+.msg3{
+    border-right: 0.2rem solid #EFF0F4;
+    color: #999999;
+}
+.box4{
+    margin-left: 3.3rem;
+    min-height: 10rem;
+    border-bottom: 0.2rem solid #EFF0F4;
+    font-size: 3.2rem;
+    display: flex;
+    align-items: center;
+}
+.box4 p{
+    padding: 0 2.8rem;
+    margin: 0;
+}
+.msg4{
+    flex: 0 0 auto;
+    border-right: 0.2rem solid #EFF0F4;
+    color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    display: inline-flex;
+    width: 100%;
+    height:12.8rem;
+    z-index: 2;
+    background: #FFFFFF;
+}
+.btn{
+    width:100%;
+    height: 8.8rem;
+    margin-left: 3.7rem;
+    margin-right: 2.5rem;
+    text-align: center;
+    font-size: 3.4rem;
+    line-height: 8.8rem;
+    border: solid #5FC0CD;
+    border-radius: 10px;
+}
+.left{
+    margin-left: 3.7rem;
+    margin-right: 2.5rem;
+    color: #5FC0CD;
+}
+.right{
+    margin-right: 2.5rem;
+    background: #5FC0CD;
+    color: #FFFFFF;
+}
+
+
